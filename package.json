@@ -1,6 +1,6 @@
 {
   "name": "googleapi-translate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "To use google translate api",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "url": "git+https://github.com/waithawoo/node-googleapi-translate.git"
   },
   "keywords": [
-    "googletranslate"
+    "googletranslate",
+    "google",
+    "translate",
+    "api",
+    "translate api"
   ],
   "author": "Wai Thaw Oo",
   "license": "MIT",
