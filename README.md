@@ -1,6 +1,6 @@
 # Node Google API Translation
 
-## To translate languages with Google Translation API
+## To translate languages with Google Translation API V2
 
 - **[Installation](#installation)**
 - **[Usage](#usage)**
@@ -19,7 +19,10 @@ let googleApi = require("googleapi-translate")
 
 let googleTranslation = new googleApi({token: 'this is token'})
 ```
-
+- default hostname is ''translation.googleapis.com'' and you can also pass hostname like this :
+```
+let googleTranslation = new googleApi({token: 'this is token', hostname: 'this is hostname'})
+```
 ### Translate
 ```
 googleTranslation.translate("hello", "en", "ja").then((res)=>{
